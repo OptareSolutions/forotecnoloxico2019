@@ -1,0 +1,8 @@
+filebeat.prospectors:
+
+- input_type: log
+  paths:
+    - C:\Users\vfernandez\Documents\LOGS\input\*
+    
+output.logstash:
+  hosts: ["localhost:5044"]
